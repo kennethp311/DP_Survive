@@ -1,5 +1,7 @@
 # Dynamic Programming Survival Game
 
+<ins>**Project Goal:**</ins> Give a dynamic programming algorithm that outputs a boolean that reports whether it is possible to survive and win the game. <br />
+
 <ins>**Input Format:**</ins> A text file named _blank_.txt will be parsed as the second argument to your program. <br />
 **(1)** First line will contain 2 integers _n_, _H_.                                     <br />
 **(2)** The next n^2 - 1 lines will contain 4 integers _x_, _y_, _t_, _v_.               <br />
@@ -17,8 +19,8 @@ You are playing a 2D dungeon crawler game called "DP Survive". The game is playe
 **(4)** The player can hold both tokens and choose when to use them. <br />
 
 <ins>**Types of Tiles:** </ins>  <br />
-**Damage Tile (_t_ = 0):** Lose _d_ health.  <br />
-**Healing Tile (_t_ = 1):** Gain _h_ health. <br />
-**Protection Tile (_t_ = 2):** Receive a Protection Token, which can be used to avoid damage when landing on a Damage Tile.        <br />
-**Multiplier Tile (_t_ = 3):** Receive a Multiplier Token, which can be used to gain double health when landing on a Health Tile.  <br />
+**Damage Tile** (_t_ = 0): Lose _d_ health.  <br />
+**Healing Tile** (_t_ = 1): Gain _h_ health. <br />
+**Protection Tile** (_t_ = 2): Receive a Protection Token, which can be used to avoid damage when landing on a Damage Tile.        <br />
+**Multiplier Tile** (_t_ = 3): Receive a Multiplier Token, which can be used to gain double health when landing on a Health Tile.  <br />
 
