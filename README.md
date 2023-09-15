@@ -35,3 +35,8 @@ You are playing a 2D dungeon crawler game called "_DP Survive_". The game is pla
 <ins>**How to Use:** </ins>                  <br />
 **Step 1)** make                             <br />
 **Step 2)** ./_DP_Survive_ _blank_.txt       <br />
+
+ ---
+
+<ins>**How I Solved This Problem:** </ins>   <br />
+I solved this problem using a dynamic programing technique called tabulation. By creating a _n_ by _n_ table, I can store the greatest possible HP you can have when landing on a specific tile. First we define the base cases ie the first row and column of the grid, by comparing the health behind it and the health after landing, storing the option with the maximum HP within our table. Next we fill in the table iteratively, by comparing the options that are to the left or above the current tile position, storing the option that has the maximum HP withen our table. Finally, we can check the health value that was stored in the our table at the last (_n_ - 1 , _n_ - 1) position. Returning 1 if our HP _H_ is greater than or equal to 0, otherwise returning 0. 
