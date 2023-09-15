@@ -32,9 +32,13 @@ You are playing a 2D dungeon crawler game called "_DP Survive_". The game is pla
 
  ---
 
-<ins>**How to Use:** </ins>                  <br />
-**Step 1)** make                             <br />
-**Step 2)** ./_DP_Survive_ _blank_.txt       <br />
+<ins>**Test a Single File:** </ins>                     <br />
+**Step 1)** make                                        <br />
+**Step 2)** ./_DP_Survive_ _blank_.txt                  <br />
+
+<ins>**Test Multiple Files within a Folder:**   </ins>  <br />
+**Step 1)** make                                        <br />
+**Step 2)** ./_DP_Survive_ _blank_.txt                  <br />
 
  ---
 
