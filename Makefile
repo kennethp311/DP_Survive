@@ -1,8 +1,8 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
 
-SRC = kill_Down_with_Trojans.cpp
-EXECUTABLE = kill_Down_with_Trojans
+SRC = DP_Survive.cpp
+EXECUTABLE = DP_Survive
 
 all: $(EXECUTABLE)
 
