@@ -30,3 +30,8 @@ You are playing a 2D dungeon crawler game called "_DP Survive_". The game is pla
 **Protection Tile** (_t_ = 2): Receive a Protection Token, which can be used to avoid damage when landing on a Damage Tile.        <br />
 **Multiplier Tile** (_t_ = 3): Receive a Multiplier Token, which can be used to gain double health when landing on a Health Tile.  <br />
 
+ ---
+
+<ins>**How to Use:** </ins>   <br />
+**Step 1)** _make_            <br />
+**Step 2)** _./DP_Survive_    <br />
