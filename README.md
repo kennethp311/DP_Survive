@@ -42,7 +42,7 @@ You are playing a 2D dungeon crawler game called "_DP Survive_". The game is pla
 
 <ins>**Generate a Folder of Random Test Files:** </ins> <br />
 **Step 1)** make _Test_File_Generator_                  <br />
-**Step 2)** ./_DP_Survive_ _blank_.txt                  <br />
+**Step 2)** ./_Test_File_Generator_.txt                 <br />
 
  ---
 
