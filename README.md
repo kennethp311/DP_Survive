@@ -32,6 +32,6 @@ You are playing a 2D dungeon crawler game called "_DP Survive_". The game is pla
 
  ---
 
-<ins>**How to Use:** </ins>   <br />
-**Step 1)** _make_            <br />
-**Step 2)** _./DP_Survive_    <br />
+<ins>**How to Use:** </ins>                  <br />
+**Step 1)** make                             <br />
+**Step 2)** ./_DP_Survive_ _blank_out_.txt   <br />
