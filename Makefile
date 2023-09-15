@@ -1,13 +1,13 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
 
-SRC = DP_Survive.cpp
-EXECUTABLE1 = DP_Survive
+all: DP_Survive Test_File_Generator
 
-all: $(EXECUTABLE1)
+DP_Survive: DP_Survive.cpp
+	$(CXX) $(CXXFLAGS) DP_Survive.cpp -o DP_Survive
 
-$(EXECUTABLE1): $(SRC)
-	$(CXX) $(CXXFLAGS) $(SRC) -o $(EXECUTABLE1)
+Test_File_Generator: Test_File_Generator.cpp
+	$(CXX) $(CXXFLAGS) Test_File_Generator.cpp -o Test_File_Generator
 
 clean:
-	rm -f $(EXECUTABLE1)
+	rm -f DP_Survive Test_File_Generator
