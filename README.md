@@ -1,6 +1,6 @@
 # Dynamic Programming Survival Game
 
-<ins>**Project Goal:**</ins> Give a dynamic programming algorithm with a runtime of _O_(n<sup>2</sup>) that outputs a boolean that reports whether it is possible to survive and win the game. <br />
+<ins>**Project Goal:**</ins> Give a dynamic programming algorithm with a runtime of _O_(n<sup>2</sup>) that outputs a boolean that reports whether it is possible for the player to reach the bottom right tile without running out of HP. <br />
 
  ---
 
@@ -16,7 +16,7 @@
 
 
 <ins>**Game Description:** </ins> <br />
-You are playing a 2D dungeon crawler game called "DP Survive". The game is played on an _n_ by _n_ grid, where you start on the top left tile (0,0). Your goal is to reach the bottom right tile (_n_ - 1 , _n_ - 1) without dying. <br />
+You are playing a 2D dungeon crawler game called "_DP Survive_". The game is played on an _n_ by _n_ grid, where you start on the top left tile (0,0). Your goal is to reach the bottom right tile (_n_ - 1 , _n_ - 1) without dying. <br />
 
 <ins>**Game Rules:** </ins> <br />
 **(1)** The game is over if the player's health _H_ goes below 0 after moving to a tile. <br />
