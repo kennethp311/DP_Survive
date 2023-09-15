@@ -57,7 +57,6 @@ void print_tile_data(int n, const std::vector<std::vector<Tile>>& tiles) {
 
 bool DP(int n, int H, const std::vector<std::vector<Tile>>& tiles) {
     
-    //Kenneth Park is super smart
     //std::vector<std::vector<Data>> T(n, std::vector<Data>(n, {-1, false, false}));
 
     std::vector<std::vector<int>> T(n, std::vector<int>(n, -1));  //T[i][j] = maximum health to get to destination [i][j].
